@@ -45,66 +45,65 @@ system_prompts = {
 }
 
 # Dynamic Context Prompts
-def generate_context_prompts(questions):
+def generate_context_prompts(questions, sys_prompt_index):
     prompts = {}
     for i, question in enumerate(questions, start=1):
         prompt_key = f"context_{i}"
-        prompt_value = f" << {question} >>"  # Only include the specific question
+        prompt_value = system_prompts[sys_prompt_index].format(event_name=event_name, objective=objective) + f" << {question} >>"
         prompts[prompt_key] = prompt_value
     return prompts
 
-context_prompts = generate_context_prompts(questions)
+context_prompts_1 = generate_context_prompts(questions, 1)
+context_prompts_2 = generate_context_prompts(questions, 2)
+context_prompts_3 = generate_context_prompts(questions, 3)
 
 ###
 
-#run.py
+import json
 import sys
 import os
-from config import system_prompts, context_prompts, inputs_file, api_version, max_tokens
+from config import context_prompts_1, inputs_file, api_version, max_tokens
 
 # Add the scripts directory to the system path
-current_dir = os.path.dirname(os.path.abspath(__file__))
-scripts_dir = os.path.join(current_dir, 'scripts')
-sys.path.append(scripts_dir)
-
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'scripts'))
 import api_interaction
 
-# Load preprocessed data
 def load_preprocessed_data(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-
-    # This below needs to be modified: the first step/iteration of the 'main()' function could be resumed in a function that:
-    # 1. for each 'input' from 'inputs_file', it must combine the data as to build a prompt respecting this format:
-    # INSTRUCTIONS: 'system_prompts[1]' + CONTEXT: 'context_prompts[#]' + DATA: 'input_data[# (same # as context prompts[#])]'
-
-# Main execution function
 def main():
     data = load_preprocessed_data(inputs_file)
+    output_dir = 'data/processed/experiment_2/'
 
-    # Process each input with GPT-4
-    for input_key, input_data in data.items():
-        for prompt_key, system_prompt in context_prompts.items():
-            # Combine each input with each context prompt and send it to GPT-4
+    # Ensure the output directory exists
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    if "input_1" in data:
+        input_data = data["input_1"]
+        for prompt_key, prompt_value in context_prompts_1.items():
             combined_input = " ".join(input_data)
-            response = api_interaction.process_data_with_gpt4(combined_input, system_prompt[1], max_tokens, api_version)
+            complete_prompt = f"{prompt_value} DATA: {combined_input}"
+            response = api_interaction.process_data_with_gpt4(complete_prompt, max_tokens, api_version)
+
             if response:
-                print(f"Response for {prompt_key} with {input_key}: {response}")
+                # Writing the response to a file
+                file_path = os.path.join(output_dir, f'response_input_1_{prompt_key}.txt')
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(response)
+                print(f"Response for {prompt_key} with input_1: {response}")
             else:
-                print(f"Failed to process {prompt_key} with {input_key}")
+                print(f"Failed to process {prompt_key} with input_1")
 
 if __name__ == "__main__":
     main()
-
 
 ###
 
 #api_interaction.py
 import requests
-from openai import OpenAI
-
-client = OpenAI(api_key=api_key)
+import openai
 import os
 
 # Add the parent directory to the system path to access config.py
@@ -113,7 +112,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import api_key
 
 # Set the OpenAI API key
-
+openai.api_key = api_key
 
 # Global variable for prompt count
 prompt_count = 0
@@ -131,13 +130,15 @@ def process_data_with_gpt4(prompt, max_tokens, api_version):
     prompt_count += 1
     try:
         # Writing the prompt to a file for logging
-        with open(f'data/processed/experiment_2/prompt_{prompt_count}.txt', 'w', encoding='utf-8') as f:
+        with open(f'data/processed/prompt_{prompt_count}.txt', 'w', encoding='utf-8') as f:
             f.write(prompt)
 
         # API Call
-        response = client.completions.create(model=api_version,
-        prompt=prompt,
-        max_tokens=max_tokens)
+        response = openai.Completion.create(
+            model=api_version,
+            prompt=prompt,
+            max_tokens=max_tokens
+        )
 
         # Extracting and returning the response
         response_text = response.choices[0].text

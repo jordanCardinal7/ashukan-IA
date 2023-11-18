@@ -1,0 +1,58 @@
+[
+- Inclusion et collaboration avec les peuples autochtones (6 entrées)
+    -- Idéalement, les peuples autochtones serait activement inclus autant dans la planification que dans les opérations.
+    -- Modèles développés par les peuples autochtones et pour les peuples autochtones, tenant compte et valorisant différentes visions du monde et savoirs.
+    -- Des communautés autochtones qui participent à la gestion des forêts comme partenaire à part entière (ex.: cogestion).
+    -- La transmission intergénérationnelle et rôle accru des jeunes autochtones.
+    -- Diversité de modèles de gestion, adaptés selon les régions (ex : forêt gérée par des communautés autochtones).
+    -- Donner aux communautés les outils pour assurer la préservation de leur patrimoine naturel, culturel et paysager.
+
+- Gestion régionalisée et décentralisée (6 entrées)
+    -- Décentralisé vers les régions; responsabilité opérationnelle des ingénieurs forestiers locaux.
+    -- Un modèle de gestion intégrée et durable au niveau des territoires de pourvoirie.
+    -- Diversité de modèles de gestion, adaptés selon les régions.
+    -- Une gestion décentralisée permettant de mieux tenir compte des besoins et réalités forestières régionales.
+    -- Régionalisation de la prise de décision et régionalisation des retombées des activités forestières.
+    -- Gestion par des municipalités ou MRC, ou autres organisations régionales autonomes.
+
+- Gestion écosystémique et conservation de la biodiversité (5 entrées)
+    -- Exploitation en dessous des capacités de régénération des forêts et zones protégées pour maintenir la biodiversité.
+    -- Ne pas reproduire les écosystèmes du passé mais rendre nos forêts plus résilientes aux changements climatiques.
+    -- Gérer un écosystème vs une terre à bois; maintien de la biodiversité et coopération entre les biologistes et les ingénieurs forestiers.
+    -- Gestion intégrée qui évite que la récolte se fasse de manière unilatérale et intègre les besoins en habitat de la faune.
+    -- Voir les forêts comme des écosystèmes riches et non seulement comme des ressources en bois.
+
+- Développement durable et approches holistiques (5 entrées)
+    -- Valorisation durable du territoire et conciliation des usages (ex: jardinage acérico-forestier, aires protégées d'utilisation durable).
+    -- Aménagement forestier intégré et durable pour maintenir les multiples avantages que procure la forêt à la société.
+    -- Pratiques certifiées et durables avec une gestion intégrée des ressources générant revenus diversifiés et conservation des ressources.
+    -- Foresterie moins normative et plus flexible, soutien à l’activité économique diversifiée et durable.
+    -- Gestion durable du réseau routier avec une planification à long terme.
+
+- Participation locale et gouvernance participative (4 entrées)
+    -- Une gouvernance basée sur le dialogue avec implication locale dans la gestion des forêts.
+    -- Gestion décentralisée avec une forte implication et responsabilité des acteurs locaux et une vision à long terme.
+    -- Des territoires bien définis pour la forêt privée avec un conseil d'administration représentatif et démocratique.
+    -- Gestion participative basée sur la responsabilité professionnelle, gestion par objectif et imputabilité.
+
+- Responsabilité et imputabilité des acteurs (4 entrées)
+    -- Ingénieurs forestiers imputables et vivant avec les impacts de leur planification.
+    -- Gestion intégrée et locale des ressources avec un professionnel imputable et décideur.
+    -- Un modèle où le propriétaire forestier est au cœur des décisions, avec une coordination complète et un fort sentiment de responsabilité.
+    -- Gestion pyramide fondée sur la responsabilité et imputabilité (obligation de résultat) des parties prenantes.
+
+- Optimisation économique et aménagement productif (3 entrées)
+    -- L’État investirait en sylviculture et adapterait ses budgets pour augmenter la possibilité forestière et conserver des entreprises sylvicoles rentables.
+    -- Un modèle inclusif qui repose sur une expertise et une collaboration pour améliorer la rentabilité économique des traitements sylvicoles.
+    -- Optimisation de la productivité dans des zones spécifiques et génération de flux financiers positifs soutenus.
+
+- Éducation, sensibilisation et certification (2 entrées)
+    -- Promouvoir l’aménagement forestier durable pour améliorer la connaissance collective.
+    -- Mettre de l’avant la foresterie durable et encourager l'achat de produits via des normes de certification.
+
+- Atteinte de la fierté nationale et culturelle (1 entrée)
+    -- Modèle de gestion qui permette le développement de la fierté nationale envers la forêt en raison de ses multiples contributions.
+
+- Conservation des acquis légaux et outillage législatif (1 entrée)
+    -- Mesures prévues à la Loi sur l’aménagement durable du territoire forestier de 2013 et mise en place des forêts de proximité selon cette loi.
+]
