@@ -2,6 +2,7 @@
 import json
 import sys
 import os
+import time
 from config import context_prompts_1, inputs_file, api_version, max_tokens
 
 # Add the scripts directory to the system path
@@ -28,13 +29,15 @@ def main():
             response = api_interaction.process_data_with_gpt4(complete_prompt, max_tokens, api_version)
 
             if response:
-                # Writing the response to a file
+                # Convert the ChatCompletionMessage to a string before writing to file
+                response_text = response.content  # Access the content of the ChatCompletionMessage
                 file_path = os.path.join(output_dir, f'response_input_1_{prompt_key}.txt')
                 with open(file_path, 'w', encoding='utf-8') as f:
-                    f.write(response)
-                print(f"Response for {prompt_key} with input_1: {response}")
+                    f.write(response_text)
+                print(f"Response for {prompt_key} with input_1: SUCCESS")
             else:
                 print(f"Failed to process {prompt_key} with input_1")
+            time.sleep(2)  # Waits for 2 seconds before processing the next prompt
 
 if __name__ == "__main__":
     main()

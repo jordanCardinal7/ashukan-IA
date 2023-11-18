@@ -3,6 +3,8 @@ import os
 
 # API Configuration
 
+# GPT-4 Interaction Settings
+max_tokens = 2048  # Maximum number of tokens for GPT-4 requests
 # Load the API key from an environment variable for security
 api_key = os.environ.get('OPENAI_API_KEY')
 if not api_key:
@@ -15,11 +17,8 @@ prep_output_dir = "data/interim"
 inputs_file = os.path.join(prep_output_dir, "preprocessed_data.json")
 
 # Event Configuration
-event_name = "name of current event"  # Name of the current event for contextualizing prompts
+event_name = "du congrès 2023 de l’Ordre des ingénieurs forestiers du Québec sous le thème « Santé forestière : tracer une nouvelle trajectoire »"  # Name of the current event for contextualizing prompts
 objective = "synthétiser les idées sur la gouvernance en contexte autochtone et de proposer des améliorations pour l’aménagement forestier au Québec."
-
-# GPT-4 Interaction Settings
-max_tokens = 2048  # Maximum number of tokens for GPT-4 requests
 
 # Define questions here, and the function will generate the context prompts
 questions = [
@@ -31,17 +30,28 @@ questions = [
 # Base Prompt Templates
 system_prompts = {
     1: """
-    En tant qu'analyste des données, tu dois traiter les informations recueillies lors de {event_name}. Ton objectif est de {objective}.
+    En tant qu'analyste des données, tu dois traiter les informations recueillies lors {event_name}. Ton objectif est de {objective}.
+    Approche cette tâche étape par étape, prends ton temps et ne saute pas d'étape:
 
-    Réaliser toutes les étapes en une sortie:
-    - Identifier et regrouper les propositions similaires abordant le même thème ou contenu.
-    - Créer une liste numérotée des catégories regroupées.
-    - Classer les catégories par ordre de priorité basé sur la fréquence de mention.
-    - Pour chaque catégorie, indiquer le nombre de fois qu'elle a été mentionnée.
-    - Ajouter une sous-liste pour chaque catégorie principale, contenant les propositions originales associées.
+
+    Réaliser toutes les étapes en une seule liste:
+    - Identifier et regrouper les propositions similaires en les analysant pour leur contenu, leur sens et leurs thèmes. Chaque groupe d'idées similaires comptera comme une seule entrée.
+    - Dans le cas où une entrée traite de plusieurs sujets à la fois, traiter chacun des sujets comme une entrée distincte.
+    - Dans le cas où une entrée est ambigüe, la regrouper avec les entrées ayant la probabilité de pertinence la plus proche.
+    - Classer toutes les entrées dans une seule liste numérotée par ordre de priorité (fréquence de mention), en indiquant combien de fois chacune d’elles apparaît
+    - Ajouter pour chaque catégorie principale, une sous-liste contenant les propositions originales associées.
+
+    EXEMPLE DE FORMAT DE SORTIE: [
+        - Catégorie principale 1 (nombre d'entrées)
+            -- entrée originale associée
+            -- entrée originale associée
+    ]
+
+    Voici les données en réponse à la question: 
     """,
-    2: """system prompt 2""",
-    3: """system prompt 3"""
+    2: """
+    Génère un court paragraphe de synthèse pour CONTEXTE résumant les points importants des mesures à prendre pour améliorer l’aménagement forestier au Québec. En finale, résume le tout en un paragraphe de synthèse de 150 mots reflétant les tendances générales, les défis ou les opportunités liées à chaque catégorie. Le tout doit être compréhensible pour les experts mais aussi pour un public plus large.""",
+    3: """À partir du CONTEXTE, y a-t-il d’autres éléments qui ne sont pas apparus et qui semblent importants? Deuxièmement, les solutions proposées sont-elles pertinentes et réalisables Troisièmement, lesquelles des solutions mentionnées font-elles déjà partie des pratiques en vigueur à l’échelle du Canada? Ta réponse doit comporter 500 mots."""
 }
 
 # Dynamic Context Prompts

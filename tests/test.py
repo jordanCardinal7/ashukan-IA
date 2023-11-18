@@ -102,7 +102,9 @@ if __name__ == "__main__":
 
 #api_interaction.py
 import requests
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=api_key)
 import os
 
 # Add the parent directory to the system path to access config.py
@@ -111,7 +113,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import api_key
 
 # Set the OpenAI API key
-openai.api_key = api_key
+
 
 # Global variable for prompt count
 prompt_count = 0
@@ -133,11 +135,9 @@ def process_data_with_gpt4(prompt, max_tokens, api_version):
             f.write(prompt)
 
         # API Call
-        response = openai.Completion.create(
-            model=api_version,
-            prompt=prompt,
-            max_tokens=max_tokens
-        )
+        response = client.completions.create(model=api_version,
+        prompt=prompt,
+        max_tokens=max_tokens)
 
         # Extracting and returning the response
         response_text = response.choices[0].text
