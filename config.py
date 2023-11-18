@@ -17,8 +17,8 @@ prep_output_dir = "data/interim"
 inputs_file = os.path.join(prep_output_dir, "preprocessed_data.json")
 
 # Event Configuration
-event_name = "du congrès 2023 de l’Ordre des ingénieurs forestiers du Québec sous le thème « Santé forestière : tracer une nouvelle trajectoire »"  # Name of the current event for contextualizing prompts
-objective = "synthétiser les idées sur la gouvernance en contexte autochtone et de proposer des améliorations pour l’aménagement forestier au Québec."
+event_name = "du congrès 2023 de l’Ordre des ingénieurs forestiers du Québec"  # Name of the current event for contextualizing prompts
+objective = "d'approfondir la réflexion sous le thème « Santé forestière : tracer une nouvelle trajectoire » et aider à formuler des propositions concrètes destinées à poser les fondements de la gestion forestière."
 
 # Define questions here, and the function will generate the context prompts
 questions = [
@@ -30,31 +30,39 @@ questions = [
 # Base Prompt Templates
 system_prompts = {
     1: """
+    CONTEXTE:
     En tant qu'analyste des données, tu dois traiter les informations recueillies lors {event_name}. Ton objectif est de {objective}.
-    Approche cette tâche étape par étape, prends ton temps et ne saute pas d'étape:
+    Prends ton temps pour n'oublier aucune étape et analyse le problème dans son ensemble, de manière à faire ressortir de façon concise les idées les plus centrales/prédominantes à la discussion.
 
-    Réaliser toutes les étapes en une seule liste:
-    - Identifier et regrouper les propositions similaires en les analysant pour leur contenu, leur sens et leurs thèmes. Chaque groupe d'idées similaires comptera comme une seule entrée.
-    - Dans le cas où une entrée traite de plusieurs sujets à la fois, traiter chacun des sujets comme une entrée distincte.
-    - Dans le cas où une entrée est ambigüe, la regrouper avec les entrées ayant la probabilité de pertinence la plus proche.
-    - Classer toutes les entrées dans une liste numérotée par ordre de priorité (fréquence de mention), de la plus fréquente à la moins fréquente, en indiquant combien de fois chacune d’elles apparaît
-    - Ajouter pour chaque catégorie principale, une sous-liste contenant les propositions originales associées.
+    TÂCHE:
+    - Analyse chaque entrée des données en format JSON et regroupe-les pour leur contenu, leur sens et leurs thèmes (pertinence sémantique), sous une même IDÉE GÉNÉRALE qui en fait la synthèse. 
+    - Classe toutes les IDÉES GÉNÉRALES dans une liste numérotée, par ordre de fréquence de mention (nombre d'entrées 3 > 2 > 1), en indiquant combien d'entrées composent chacune.
+    - Pour chaque IDÉE GÉNÉRALE, ajoute dans une sous-liste des exemples résumant les idées originales associées (maximum 5). 
 
+    SPÉCIFICATIONS:
+    - Dans le cas où une entrée traite de plusieurs sujets à la fois, traite chacun des sujets comme une entrée distincte. 
+    - Dans le cas où une entrée est ambigüe, regroupe-la avec les entrées ayant la probabilité de pertinence sémantique la plus proche.
+    
     EXEMPLE DE FORMAT DE SORTIE: [
-        - Catégorie principale 1 (nombre d'entrées)
-            -- entrée originale associée
-            -- entrée originale associée
+    
+        Titre: << Question >>
+
+        1. **Idée générale (mentionnée 'x>y' fois)**
+            - idée originale associée
+        
+        2. **Idée générale (mentionnée 'y<x' fois)**
+            - idée originale associée
     ]
 
-    Voici les données en réponse à la question: 
+    Voici les données en réponse à la question:
     """,
 
     2: """
     En tant qu'analyste des données, tu dois traiter les informations recueillies lors {event_name}. Ton objectif est de {objective}.
 
-    Génère un court paragraphe de synthèse pour CONTEXTE résumant les points importants des mesures à prendre pour améliorer l’aménagement forestier au Québec. Résume le tout en un paragraphe de synthèse de 150 mots reflétant les tendances générales, les défis ou les opportunités liées à chaque catégorie. Le tout doit être compréhensible pour les experts mais aussi pour un public plus large.
+    Génère un paragraphe de synthèse pour <CONTEXTE> résumant les idées essentielles/prédominantes répondant à la <<question>> formulée. Base-toi sur la liste ci-dessous en tenant compte de la hiérarchie entrées. Résume le tout en un paragraphe de synthèse de 150 mots reflétant les tendances générales, les défis ou les opportunités liées à chaque catégorie. Le tout doit être compréhensible pour les experts mais aussi pour un public plus large.
     
-    CONTEXTE: Voici les données en réponse à la question: 
+    <CONTEXTE>: Voici les données en réponse à la question: 
 
     """
 }
@@ -67,7 +75,7 @@ context_general = """
 
 context_analysis = """
     En tant qu'analyste des données, tu dois traiter les informations recueillies lors {event_name}. Ton objectif est de {objective}.
-    À partir de la synthèse générale (CONTEXTE), y a-t-il d’autres éléments qui ne sont pas apparus et qui semblent importants? Deuxièmement, les solutions proposées sont-elles pertinentes et réalisables Troisièmement, lesquelles des solutions mentionnées font-elles déjà partie des pratiques en vigueur à l’échelle du Canada? Ta réponse doit comporter 500 mots.
+    À partir de la synthèse générale (CONTEXTE), y a-t-il d’autres éléments qui ne sont pas apparus et qui semblent importants? Deuxièmement, les solutions proposées sont-elles pertinentes et réalisables? Troisièmement, lesquelles des solutions mentionnées font-elles déjà partie des pratiques en vigueur à l’échelle du Canada? Ta réponse doit comporter 500 mots. Formule-la en 3 paragraphes, répondant à chacune des 3 questions.
     CONTEXTE:
 """.format(event_name=event_name, objective=objective)
 

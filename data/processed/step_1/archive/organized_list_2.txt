@@ -1,0 +1,52 @@
+[
+    Titre:<< Modèle de gestion des forêts qui répondrait le mieux aux aspirations >>
+
+    1.**Inclusion et participation des peuples autochtones (mentionnée 3 fois)**
+        - Inclusion active des peuples autochtones dans la planification et les opérations forestières.
+        - Développement de modèles de foresterie autochtone par et pour les peuples autochtones.
+        - Cogestion des forêts et consentement libre, préalable et éclairé des communautés autochtones.
+
+    2.**Gestion décentralisée et régionalisée (mentionnée 3 fois)**
+        - Gestion forestière décentralisée vers les régions pour une meilleure résilience au changement climatique.
+        - Gestion intégrée du territoire optimisant l'ensemble des usages de la forêt.
+        - Régionalisation de la prise de décision et des retombées des activités forestières.
+
+    3.**Gestion durable et intégrée (mentionnée 3 fois)**
+        - Aménagement forestier intégré et durable pour maintenir les avantages multiples de la forêt.
+        - Approche de gestion qui valorise la mixité et la conciliation des usages.
+        - Pratiques certifiées et durables avec une gestion intégrée des ressources.
+
+    4.**Responsabilité et imputabilité des gestionnaires (mentionnée 2 fois)**
+        - Ingénieurs forestiers imputables et responsables de la planification opérationnelle.
+        - Gestion basée sur la responsabilité professionnelle et l'imputabilité des parties prenantes.
+
+    5.**Contribution au développement local et à la communauté (mentionnée 2 fois)**
+        - Gestion forestière contribuant aux communautés locales et au sentiment d'appartenance.
+        - Prévisibilité et bénéfices des activités forestières pour les communautés régionales.
+
+    6.**Préservation de la biodiversité et de la santé forestière (mentionnée 2 fois)**
+        - Exploitation des forêts sous les capacités de régénération et zones protégées pour la biodiversité.
+        - Modèle assurant le maintien des espèces et des milieux sensibles avec coopération entre biologistes et ingénieurs forestiers.
+
+    7.**Gouvernance participative et démocratique (mentionnée 2 fois)**
+        - Gouvernance éclairée basée sur le dialogue avec les parties prenantes.
+        - Gestion pyramide avec une base forte, transparente et participative.
+
+    8.**Valorisation et diversification des activités forestières (mentionnée 1 fois)**
+        - Territoires bien définis pour la forêt privée permettant une diversification des activités.
+
+    9.**Foresterie moins normative et plus flexible (mentionnée 1 fois)**
+        - Moins de normativité et plus de flexibilité dans les guides sylvicoles régionaux.
+
+    10.**Éducation et sensibilisation à la foresterie durable (mentionnée 1 fois)**
+        - Promotion de l'aménagement forestier durable pour une meilleure connaissance collective.
+
+    11.**Conservation et utilisation durable du territoire (mentionnée 1 fois)**
+        - Modèle fondé sur la valorisation durable du territoire à tous les termes.
+
+    12.**Gestion basée sur des connaissances scientifiques et des inventaires détaillés (mentionnée 1 fois)**
+        - Gestion s'appuyant sur des inventaires et cartographies détaillés sur de longues périodes.
+
+    13.**Harmonisation des droits et consensus sur le territoire (mentionnée 1 fois)**
+        - Harmonisation pour favoriser la concertation entre les détenteurs de droits sur le territoire.
+]

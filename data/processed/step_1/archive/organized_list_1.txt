@@ -1,0 +1,36 @@
+[
+    
+    Titre:<< Préoccupations et enjeux de la gestion des forêts >>
+
+    1.**Inclusion et respect des droits des peuples autochtones (mentionnée 3 fois)**
+        - Prise en compte insuffisante des intérêts autochtones dans l'exploitation forestière.
+        - Manque de collaboration avec les peuples autochtones pour trouver des solutions mutuellement profitables.
+        - Nécessité d'assurer un accès équitable aux emplois et aux bénéfices du développement économique pour les communautés autochtones.
+
+    2.**Manque de flexibilité et de prévisibilité dans la gestion forestière (mentionnée 3 fois)**
+        - Planificateurs éloignés des réalités opérationnelles et augmentation des coûts due à une planification inadéquate.
+        - Rigidité du régime forestier qui empêche une gestion adaptative au niveau local et régional.
+        - Centralisation de la gestion forestière et sous-financement des travaux sylvicoles.
+
+    3.**Conflits entre la foresterie et les autres usages du territoire (mentionnée 3 fois)**
+        - Gestion non durable du territoire forestier pour les pourvoiries et autres utilisations non-ligneuses.
+        - L'approche actuelle de planification forestière ne tient pas compte des pourvoiries et d'autres économies.
+        - Nécessité d'un traitement équitable des utilisations/utilisateurs du territoire, y compris le secteur acéricole.
+
+    4.**Défis liés au changement climatique et à la résilience des forêts (mentionnée 2 fois)**
+        - Nécessité de revoir le modèle d'aménagement forestier durable en considérant les changements climatiques.
+        - Gestion des risques inadéquate face aux événements comme les feux de forêt et les épidémies.
+
+    5.**Gestion durable et valorisation du capital forestier (mentionnée 2 fois)**
+        - Importance de la gestion durable du territoire forestier qui intègre les impacts à long terme des aménagements.
+        - La gestion forestière actuelle est trop axée sur l'approvisionnement en bois sans valoriser d'autres aspects de la forêt.
+
+    6.**Complexité réglementaire et administrative (mentionnée 2 fois)**
+        - Cadre réglementaire complexe et évolutif en forêt privée influençant le niveau d'activité.
+        - Lourdeur administrative et manque d'efficience et d'innovation dans la gestion forestière.
+
+    7.**Préoccupations diverses liées à la gestion forestière (mentionnée 1 fois)**
+        - Développement d'une vision ambitieuse pour la culture forestière.
+        - Diminution du pouvoir d'influence des communautés forestières et problèmes d’approvisionnement.
+        - Manque de données sur la biodiversité et besoin de financement pour la recherche forestière.
+]

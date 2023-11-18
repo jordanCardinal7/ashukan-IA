@@ -1,52 +1,46 @@
 [
-    - Régime forestier et gouvernance actuels (14 entrées)
-        -- Le régime forestier actuel et la trop grande centralisation des décisions sont des obstacles majeurs.
-        -- La rigidité du modèle de gouvernance (normatif)
-        -- Régime forestier actuel. Gouvernance. La nécessité d’une grande vision forestière gouvernementale.
-        -- La Loi sur l'aménagement durable du territoire forestier (LADTF) vise et permet de le faire. Cependant, sa mise en œuvre est un échec total.
+    Titre: << Contraintes à la réalisation d'un nouveau modèle de gestion forestière >>
 
-    - Reconnaissance des droits autochtones (3 entrées)
-        -- Les revendications territoriales non résolues et les droits ancestraux autochtones non reconnus créent des obstacles.
-        -- La nécessité d'établir la relation de confiance et poser des gestes significatifs dans le sens de la réconciliation.
+    1. **Régime forestier actuel et gouvernance (mentionnée 8 fois)**
+        - Centralisation excessive des décisions et résistance du MRNF au changement
+        - Absence d'une vision gouvernementale intégrée pour la gestion des forêts
+        - La Loi sur l'aménagement durable du territoire forestier (LADTF) non efficacement mise en œuvre
+        - Rigidité du modèle de gouvernance et manque de prévisibilité
+        - Nécessité d'une grande vision forestière gouvernementale et d'une révision du régime forestier
 
-    - Manque de financement et ressources limitées (4 entrées)
-        -- Manque de financement pour investir dans ces modèles.
-        -- Le manque de financement innovant qui permet la coopération entre les disciplines.
+    2. **Financement et ressources économiques (mentionnée 5 fois)**
+        - Objectifs de rentabilité à court terme et pression économique sur les forêts
+        - Manque de financement pour investir dans le nouveau modèle de gestion
+        - Ressources financières limitées pour la formation et l'équipement nécessaire
+        - Déséquilibre entre les revenus du bois et le prix des terres
+        - Nécessité d'un financement innovant qui favorise la coopération entre disciplines
 
-    - Conflits d’usage et gestion des forêts (7 entrées)
-        -- Gestion des conflits d'usage: la foresterie autochtone doit composer avec d'autres utilisations des terres.
-        -- L’absence d’une vision commune pour soutenir le développement du secteur forestier; L’absence de gestionnaire de territoire imputable pour l’ensemble des ressources.
+    3. **Conflits d'usage et droits territoriaux (mentionnée 5 fois)**
+        - Revendications territoriales autochtones et conflits d'usage
+        - Conciliation exigeante entre protection des ressources et développement économique
+        - Gestion des conflits d'usage en foresterie autochtone
+        - Absence de gestionnaire de territoire imputable pour l'ensemble des ressources
+        - Multiplication des règlementations qui ne sont pas harmonisées
 
-    - Formation et compétences (2 entrées)
-        -- Le développement des compétences nécessaires à la gestion forestière durable peut représenter un défi.
-        -- La valeur de la forêt québécoise et des peuplements doit être évaluée sur les plans économique, social et écologique.
+    4. **Éducation et perception publique (mentionnée 4 fois)**
+        - Manque d'éducation forestière de la population québécoise
+        - Perception négative de la foresterie dans la population
+        - Importance de l'éducation du public sur les bénéfices de la foresterie
+        - Méconnaissance du secteur forestier et faible intégration des acteurs
 
-    - Implication des jeunes autochtones (1 entrée)
-        -- Essentiel de donner une place importante aux jeunes autochtones pour relever des défis d’aujourd’hui et de demain.
+    5. **Volonté politique et leadership (mentionnée 4 fois)**
+        - Manque de volonté politique pour changer de modèle
+        - Leadership difficile à assumer pour l'État et les élus locaux
+        - Appel à des États généraux sur la forêt pour une réforme politique
+        - Nécessité d'un leadership gouvernemental fort pour la transition
 
-    - Volonté politique et éducation (9 entrées)
-        -- La volonté politique de changer de modèle; Le manque d’éducation forestière de la population québécoise.
-        -- Un signal politique clair et la volonté des responsables demeurent des conditions de base à la mise en place d’une réelle vision intégrée de la gestion des forêts.
-        -- La principale contrainte à la réalisation d’un modèle de gestion forestière décentralisée est POLITIQUE.
+    6. **Cadre normatif et réglementaire (mentionnée 4 fois)**
+        - Gestion par règlements plutôt que par objectifs
+        - Complexité du cadre réglementaire en forêt privée
+        - Encadrement législatif à réformer (LADTF et RADF)
+        - Primauté du bois sur les autres usages du territoire dans le cadre normatif actuel
 
-    - Aspects légaux et réglementaires (8 entrées)
-        -- Un cadre réglementaire complexe en forêt privée où chaque règlement peut sembler raisonnable, mais l'effet cumulatif a une incidence drastique.
-        -- La rigidité du modèle de gouvernance (normatif).
-        -- La Loi sur l'aménagement durable du territoire forestier (LADTF) et sa mise en œuvre.
-        -- La multiplication des règlementations municipales et provinciales non harmonisées.
-
-    - Intégrité et coopération des acteurs (2 entrées)
-        -- La polarisation des idées des acteurs du milieu plutôt que leur concertation pour parvenir à un consensus.
-        -- Trouver les bons acteurs locaux… décisionnel et gestionnaire de tous les aspects de la forêt.
-
-    - Perception publique et sensibilisation (2 entrées)
-        -- Éducation du public. couper un arbre c’est bien pour l’économiquement la faune, etc.
-        -- La perception négative de la foresterie dans la population qui peut décourager les propriétaires de faire de la foresterie.
-
-    - Structuration et planification des actions (2 entrées)
-        -- Une vision… un vrai plan général INTÉGRÉ.
-        -- Le Ministère doit revenir à l’essence de la loi de 2013 et appliquer les processus de consultation déjà prévus, les élus locaux doivent être partie prenante des décisions.
-
-    - Autonomie des propriétaires forestiers (1 entrée)
-        -- Il y a souvent incohérence entre les politiques de soutien et l’encadrement réglementaire. On constate une lente atrophie de l’autonomie accordée aux propriétaires forestiers.
+    7. **Formation et compétences (mentionnée 2 fois)**
+        - Développement des compétences nécessaires pour la gestion forestière durable
+        - Création d'un secteur forestier culturellement sécurisant pour attirer les jeunes autochtones
 ]

@@ -4,6 +4,7 @@ import sys
 import os
 import argparse
 import glob
+import time
 from config import context_prompts_1, context_prompts_2, context_prompts_3, api_version, max_tokens
 
 # Add the scripts directory to the system path
@@ -27,7 +28,7 @@ def process_question_responses(data, context_prompts, output_dir):
     for key, context_prompt in context_prompts.items():
         # Combine context prompt with corresponding data
         full_prompt = f"{context_prompt} DATA: {data[str(key)]}"  # Ensure data[key] is a string
-        response = api_interaction.process_data_with_gpt4(full_prompt)
+        response = api_interaction.process_data_with_gpt4(full_prompt, 0.55)
         save_text(os.path.join(output_dir, f"organized_list_{key}.txt"), response)
         responses[key] = response
     return responses
@@ -37,9 +38,10 @@ def generate_synthesis_paragraphs(data, context_prompts, output_dir):
     for key, context_prompt in context_prompts.items():
         # Combine context prompt with corresponding response data
         full_prompt = f"{context_prompt} DATA: {data[f'organized_list_{key}']}"  # Ensure the key matches the file naming convention
-        synthesis = api_interaction.process_data_with_gpt4(full_prompt)
+        synthesis = api_interaction.process_data_with_gpt4(full_prompt, 0.7)
         save_text(os.path.join(output_dir, f"synthesis_{key}.txt"), synthesis)
         synthesis_paragraphs[key] = synthesis
+        time.sleep(2)
     return synthesis_paragraphs
 
 def generate_final_output(data, context_prompts, output_dir):
@@ -48,11 +50,11 @@ def generate_final_output(data, context_prompts, output_dir):
 
     # Generate the general synthesis
     full_prompt_general = f"{context_prompts['general']} DATA: {combined_synthesis}"
-    general_synthesis = api_interaction.process_data_with_gpt4(full_prompt_general)
+    general_synthesis = api_interaction.process_data_with_gpt4(full_prompt_general, 0.7)
 
     # Generate the AI's perspective on the general synthesis
     full_prompt_analysis = f"{context_prompts['analysis']} DATA: {general_synthesis}"
-    ai_analysis = api_interaction.process_data_with_gpt4(full_prompt_analysis)
+    ai_analysis = api_interaction.process_data_with_gpt4(full_prompt_analysis, 0.7)
 
     # Combine general synthesis and AI analysis into final output
     final_output = f"General Synthesis:\n{general_synthesis}\n\nAI's Perspective:\n{ai_analysis}"

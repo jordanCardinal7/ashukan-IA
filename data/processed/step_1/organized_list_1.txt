@@ -1,61 +1,50 @@
 [
-- Préoccupations concernant la gouvernance et la gestion des forêts en contexte autochtone (9 entrées)
-    -- Je suis préoccupé que les intérêts des peuples autochtones ne soient pas bien pris en compte dans la planification de l'exploitation forestière.
-    -- Système actuel affecte la capacité des acteurs à entretenir de bonnes relations avec les peuples autochtones.
-    -- Incapacité à assurer une prise en compte de leurs cultures, de leurs intérêts, de leurs valeurs et de leurs besoins.
-    -- Appel à l’action : « Assurer un accès équitable aux emplois, à la formation et aux possibilités de formation dans le secteur des entreprises et à ce que les collectivités autochtones retirent des avantages à long terme des projets de développement économique ».
-    -- Les plans de gestion faunique ne sont pas intégrés au processus de planification forestière.
-    -- Respects des droits autochtones et participation du public : Consultation appropriée.
-    -- L’harmonisation de la récolte en territoire autochtone.
-    -- Harmonisation. Cohabitation.
-    -- La centralisation de la prise de décisions.
+    
+    Titre: << Préoccupations et enjeux en gestion forestière >>
 
-- Difficultés de gestion et de planification forestière (19 entrées)
-    -- Les problèmes de planification engendrés par des planificateurs loin des réalités du terrain.
-    -- Le manque de prévisibilité; Le morcellement des travaux.
-    -- La gestion des forêts va bien au-delà de la simple production durable de bois.
-    -- Objectifs visés en forêt publique: gestion axée sur la production d’un volume de bois défini.
-    -- Le cadre réglementaire est complexe en forêt privée.
-    -- Variations importantes des investissements sylvicoles en forêt privée.
-    -- Des forêts et environnement d’affaires qui changent rapidement.
-    -- Accès à la fibre (plan de protection, harmonisation, opinion publique, avenir incertain).
-    -- Évolution du climat – Feu, épidémie : Résilience des forêts.
-    -- Actuellement, on aménage les forêts en maximisant les retombées économiques d’une seule valeur.
-    -- La gestion forestière centralisée à Québec.
-    -- Le sous-financement des travaux sylvicoles.
-    -- Les pratiques forestières actuelles inadaptées aux changements climatiques.
-    -- La gestion forestière actuellement axée sur l’approvisionnement en bois.
-    -- La diminution graduelle du pouvoir d’influence des communautés forestières.
-    -- Les défis liés aux changements climatiques.
-    -- Acceptabilité sociale.
-    -- Faible compétitivité, lourdeur administrative.
-    -- La prise de décisions centralisée.
+    1. **Inclusion et droits des peuples autochtones (mentionnée 3 fois)**
+        - Préoccupation quant à la prise en compte des intérêts autochtones dans l'exploitation forestière.
+        - Manque de flexibilité du régime forestier pour intégrer les cultures autochtones.
+        - Nécessité d'assurer une gestion des forêts équitable et durable pour les communautés autochtones.
 
-- Impact économique et valorisation des usages multiples de la forêt (11 entrées)
-    -- La pourvoirie représente une valeur ajoutée moyenne de 40 $/m3.
-    -- Le territoire forestier n’est pas géré de façon durable pour les pourvoiries.
-    -- Traitement équitable des utilisations/utilisateurs du territoire.
-    -- Expertise pour l’aménagement des érablières à des fins acéricoles.
-    -- Toujours être en mesure d’offrir des services au bénéfice des propriétaires de boisés.
-    -- Morcellement du territoire et changement de vocation.
-    -- La difficulté d’équilibre entre les besoins de la société et le respect du droit du propriétaire du boisé.
-    -- Des acteurs qui proposent des stratégies par usages qui excluent les autres utilisateurs.
-    -- L’absence de mobilisation et de convergence des acteurs en forêt privée empêche d’atteindre le plein potentiel.
-    -- Bloque la création d’aires protégées, la protection de l’habitat d’espèces menacées.
-    -- L’harmonisation des usages.
+    2. **Aménagement et gestion durable du territoire (mentionnée 3 fois)**
+        - Importance d'intégrer les autres économies et l'impact à long terme des aménagements forestiers.
+        - Valorisation du capital forestier au-delà de la production de bois.
+        - Gestion des impacts des activités forestières sur les pourvoiries et autres utilisateurs du territoire.
 
-- Défis liés au financement et à l'emploi (4 entrées)
-    -- Maintenir la possibilité forestière au même niveau tout en adaptant nos stratégies d’aménagement aux enjeux actuels.
-    -- La situation de l’emploi évolue.
-    -- Le désintéressement de la profession d’ingénieur forestier.
-    -- Le prix des terres forestières. 
+    3. **Flexibilité et adaptation de la gestion forestière (mentionnée 3 fois)**
+        - Problèmes de planification éloignée des réalités opérationnelles et coûts associés.
+        - Manque de prévisibilité et de synergies dans le système de gestion forestière.
+        - Nécessité de décentraliser la gestion forestière pour mieux répondre aux réalités locales.
 
-- Stratégie et innovation dans la gestion des forêts (7 entrées)
-    -- La flexibilité du régime forestier a été perdue.
-    -- Il faut bénéficier de l’expertise des travailleurs plus âgés.
-    -- Augmenter nos capacités de réalisation par une intégration réussie des travailleurs étrangers.
-    -- Mécanisation des travaux sylvicoles non commerciaux.
-    -- Recherche et sciences : Financer des projets ayant un impact significatif.
-    -- Les projets de planification collaborative ne donnent pas les résultats escomptés.
-    -- Objectifs de gestion VS calcul de possibilité forestière VS stratégie d’aménagement VS effort sylvicole VS effets réels des traitements sylvicoles.
+    4. **Soutien et développement de la forêt privée (mentionnée 2 fois)**
+        - Adaptation des services aux évolutions des profils des propriétaires forestiers et des écosystèmes.
+        - Équilibre entre les besoins de la société et les droits des propriétaires de boisés.
+
+    5. **Défis économiques et sociaux du secteur forestier (mentionnée 2 fois)**
+        - Morosité du secteur en forêt publique et faible synergie entre les acteurs.
+        - Impact rapide des changements environnementaux et économiques sur la gestion forestière.
+
+    6. **Accessibilité et gestion de la ressource ligneuse (mentionnée 2 fois)**
+        - Difficultés d'accès à la fibre et adaptation des stratégies d'aménagement aux enjeux actuels.
+        - Prise en compte de la biodiversité, des droits autochtones et des risques climatiques dans l'accès au bois.
+
+    7. **Pratiques forestières et changements climatiques (mentionnée 2 fois)**
+        - Inadaptation des pratiques actuelles face aux changements climatiques.
+        - Urgence de revoir le modèle d'aménagement forestier durable en considération des changements climatiques.
+
+    8. **Rôle et formation des professionnels forestiers (mentionnée 1 fois)**
+        - Désintéressement de la profession d’ingénieur forestier et manque de flexibilité des pratiques.
+
+    9. **Gestion axée sur l'approvisionnement en bois (mentionnée 1 fois)**
+        - Critique de la gestion forestière centrée sur l'approvisionnement en bois au détriment d'autres usages.
+
+    10. **Pouvoir d'influence des communautés forestières (mentionnée 1 fois)**
+        - Diminution du pouvoir d'influence des communautés forestières et problèmes d'approvisionnement.
+
+    11. **Acceptabilité sociale et prise de décision centralisée (mentionnée 1 fois)**
+        - Centralisation des décisions et besoin d'une meilleure acceptabilité sociale des activités forestières.
+
+    12. **Développement d'une vision forestière ambitieuse (mentionnée 1 fois)**
+        - Opportunité de développer une culture forestière et de susciter l'intérêt pour la forêt au sein de la population.
 ]

@@ -1,0 +1,49 @@
+[
+    Titre:<< Contraintes à la réalisation d'un nouveau modèle de gestion forestière >>
+
+    1.**Résistance institutionnelle et manque de volonté politique (mentionnée 9 fois)**
+        - Régime forestier actuel et centralisation des décisions
+        - Manque de volonté politique pour changer de modèle
+        - Échec de mise en œuvre de la LADTF en termes de planification intégrée
+        - Rigidité du modèle de gouvernance et manque de prévisibilité
+        - Absence d'une vision gouvernementale pour la gestion des chemins et de la forêt
+
+    2.**Conflits d'intérêts économiques et sociaux (mentionnée 8 fois)**
+        - Objectifs de rentabilité des compagnies forestières et maintien de l'emploi
+        - Primauté du bois et profits à court terme sur d'autres usages du territoire
+        - Déséquilibre entre les revenus du bois et le prix des terres
+        - Résistance au changement par les bénéficiaires du système actuel
+
+    3.**Contraintes financières et réglementaires (mentionnée 6 fois)**
+        - Manque de financement pour investir dans de nouveaux modèles
+        - Cadre réglementaire complexe et manque d'agilité
+        - Multiplication et complexification des règles
+        - Norme ISO coûteuse et limitant la flexibilité
+
+    4.**Éducation et perception publique (mentionnée 5 fois)**
+        - Manque d'éducation forestière de la population québécoise
+        - Perception négative de la foresterie qui décourage la gestion active
+        - Éducation du public nécessaire pour valoriser la coupe d'arbres
+
+    5.**Gestion et reconnaissance des droits autochtones (mentionnée 4 fois)**
+        - Revendications territoriales non résolues et droits ancestraux non reconnus
+        - Gestion des conflits d'usage en foresterie autochtone
+        - Nécessité d'établir une relation de confiance et de réconciliation
+
+    6.**Développement des compétences et intégration des jeunes autochtones (mentionnée 3 fois)**
+        - Défi du développement des compétences pour la gestion durable
+        - Importance de donner une place aux jeunes autochtones dans le secteur forestier
+
+    7.**Manque de concertation et de collaboration (mentionnée 3 fois)**
+        - Polarisation des idées au lieu de concertation pour consensus
+        - Absence d'une vision commune et de gestionnaire imputable
+        - Nécessité d'intégrer un large éventail d'acteurs et de bénéfices
+
+    8.**Gestion décentralisée et implication locale (mentionnée 2 fois)**
+        - Nécessité d'une gestion forestière décentralisée et d'impliquer les communautés
+        - Appel à tenir des États généraux sur la forêt pour revoir le régime forestier
+
+    9.**Innovation et agilité dans la gestion forestière (mentionnée 1 fois)**
+        - Besoin de plus de prévisibilité et d'agilité dans la gestion forestière privée
+        - Opportunités d'innovation et de coopération entre disciplines
+]
